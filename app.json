@@ -1,11 +1,12 @@
 {
   "name": "image-proxy",
-  "repository": "https://github.com/jpmckinney/image-proxy",
-  "description": "A simple image proxy optimized for headshots",
+  "repository": "https://github.com/tsnolan23/image-proxy",
+  "description": "A simple image proxy",
   "keywords": ["image", "proxy"],
   "addons": [],
   "env": {
-    "NODE_ENV": "production"
+    "NODE_ENV": "production",
+    "WHITELIST": ".mlsfinder.com,.listhub.net"
   },
   "buildpacks": [
     {
