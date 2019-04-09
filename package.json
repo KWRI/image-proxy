@@ -2,7 +2,10 @@
   "name": "image-proxy",
   "version": "0.0.7",
   "description": "A simple image proxy optimized for headshots",
-  "keywords": ["image", "proxy"],
+  "keywords": [
+    "image",
+    "proxy"
+  ],
   "homepage": "https://github.com/jpmckinney/image-proxy",
   "bugs": "https://github.com/jpmckinney/image-proxy/issues",
   "license": "MIT",
@@ -18,6 +21,7 @@
     "test": "DELAY=100 WHITELIST=localhost mocha"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": ">=3",
     "gm": ">=1.2.0",
     "mime": ">=1.1.0"
