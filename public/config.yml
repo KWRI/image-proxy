@@ -1,0 +1,17 @@
+# Mandatory Consumer
+consumers:
+- acls: []
+  credentials: []
+  custom_id: "0"
+  username: anonymous
+apis:
+# Main Endpoint
+- attributes:
+    methods:
+    - OPTIONS
+    - GET
+    upstream_url: http://$upstream_host/
+    uris:
+    - /image-proxy
+  name: imageproxy
+  plugins: []
